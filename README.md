@@ -13,3 +13,9 @@ Prints version
 Actual:
 
 segfault
+
+
+## Requirements
+
+* a MSYS2 install
+* `pacman -S --needed git ${MINGW_PACKAGE_PREFIX}-cargo-c ${MINGW_PACKAGE_PREFIX}-cc ${MINGW_PACKAGE_PREFIX}-rust`
