@@ -18,4 +18,5 @@ segfault
 ## Requirements
 
 * a MSYS2 install
+* Use UCRT64 or CLANG64 environment (problem exists in both)
 * `pacman -S --needed git ${MINGW_PACKAGE_PREFIX}-cargo-c ${MINGW_PACKAGE_PREFIX}-cc ${MINGW_PACKAGE_PREFIX}-rust`
