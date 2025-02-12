@@ -4,7 +4,9 @@ For https://github.com/msys2/MINGW-packages/issues/23358
 
 * git clone
 * git submodule update --init
-* ./repro.sh
+* ./repro_libimagequant.sh
+* ./repro_dovi_tool.sh
+* Uncomment the dlltool lines to get a working version.
 
 Expected:
 
